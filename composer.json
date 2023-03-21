@@ -1,8 +1,8 @@
 {
-	"name": "plasticstudio/search",
+	"name": "csoellinger/silverstripe-ps-search",
     "type": "silverstripe-vendormodule",
-	"description": "Search engine for Silverstripe websites - forked from jaedb/search",
-	"homepage": "https://psdigital.co.nz",
+	"description": "Search engine for Silverstripe websites - forked from plasticstudio/search which forked from jaedb/search",
+	"homepage": "https://github.com/CSoellinger",
 	"keywords": ["silverstripe","silverstripesearch"],
 	"license": "BSD-3-Clause",
 	"authors": [
@@ -15,10 +15,15 @@
 			"name": "Jeremy Cole",
 			"homepage": "https://psdigital.co.nz",
 			"email": "jeremy@psdigital.co.nz"
+		},
+		{
+			"name": "Christopher Söllinger",
+			"homepage": "https://github.com/CSoellinger",
+			"email": "christopher.soellinger@gmail.com"
 		}
 	],
 	"support": {
-		"issues": "http://github.com/plasticstudio/search/issues"
+		"issues": "https://github.com/CSoellinger/SilverStripe-PlasticStudio-Search/issues"
 	},
     "extra": {
         "expose": [

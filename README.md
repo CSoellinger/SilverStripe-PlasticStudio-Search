@@ -1,3 +1,6 @@
+***!!! Note: This is a fork from [https://github.com/PlasticStudio/Search](https://github.com/PlasticStudio/Search) and exists only till pull request will be accepted. If they will not this addon will try to keep same feature like existing forks. Differences to the forks are some config features like include_css or include_js or the extended JoinTables thing. If Pull Request will be merged i would delete this repo and you should go back to [https://github.com/PlasticStudio/Search](https://github.com/PlasticStudio/Search).***
+
+---
 
 The built-in SilverStripe search form is a very simple search engine. This plugin takes SQL-based searching to the next level, without requiring the implementation of a full-blown search engine like Solr or Elastic Search. It is designed to bring data-oriented filters on top of the simple text search functionality.
 
