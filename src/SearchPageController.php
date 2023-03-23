@@ -397,6 +397,10 @@ class SearchPageController extends PageController {
 			 **/		
 			if (isset($type['Filters'])){
 				foreach ($type['Filters'] as $key => $value){
+                    if (is_array($value) && array_key_exists('Operator', $value) && array_key_exists('Value', $value)) {
+                        $where.= ' AND ('.$key.$value['Operator'].$value['Value'].')';
+                        continue;
+                    }
 					if (is_array($value) === true) {
 						$where.= ' AND ('.$key.' IN ('.implode(',', $value).'))';
 						continue;
